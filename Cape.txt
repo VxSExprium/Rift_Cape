@@ -1,3 +1,4 @@
+//add on server_world.h (if Gtos CPP)
 void PlayerRift(ENetPeer* peer, int colum1, int colum2, int colum3, int colum4, int colum5, int colum6, int berapapacket)
 {
 	ENetPeer* currentPeer;
@@ -36,5 +37,5 @@ void PlayerRift(ENetPeer* peer, int colum1, int colum2, int colum3, int colum4, 
 
 
 
-//taruh di joinclothesupdate
+//Add on joinclothesupdate [(on server.cpp (Gtos)], if other CPP. Add On .cpp
 PlayerRift(peer, 2555, 2402849791, 723421695, 2402849791, 1059267327, 30, 6);
